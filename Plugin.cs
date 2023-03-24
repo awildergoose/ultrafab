@@ -73,7 +73,7 @@ public class Plugin : BaseUnityPlugin
             // remove first character since its gonna be a space
             combined = combined.Remove(0, 1);
 
-            con.PrintLine("Trying to: " + combined);
+            con.PrintLine("Spawned " + combined + "!");
 
             GameObject player = GameObject.Find("Player");
 

@@ -45,7 +45,7 @@ public static class Global {
     public static ConfigFile config;
 }
 
-[BepInPlugin("org.spazelectro.plugins.ultrafab", "UltraFab", "1.0.0.0")]
+[BepInPlugin("org.awildergoose.plugins.ultrafab", "UltraFab", "1.0.0.0")]
 public class Plugin : BaseUnityPlugin
 {
     
